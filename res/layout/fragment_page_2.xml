@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/titleTmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已下载城市 " />
+
+    <ListView
+        android:id="@+id/localmaplist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/no_offline_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="@color/half_black"
+        android:visibility="gone"
+        android:text="暂无离线地图"/>
+
+</LinearLayout>
